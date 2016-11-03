@@ -1,6 +1,0 @@
-queue:
-- name: myqueue
-  mode: pull
-  acl:
-  - user_email: myuseremail@developer.gserviceaccount.com    # can insert tasks, in addition to rights granted by being a user_email above
-  - writer_email: my_app@appspot.gserviceaccount.com    # can insert tasks, in addition to rights granted by being a user_email above
